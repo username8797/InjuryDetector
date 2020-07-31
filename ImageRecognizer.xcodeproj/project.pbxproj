@@ -13,6 +13,7 @@
 		FFF4248024CF9CFD00050FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF4247E24CF9CFD00050FAA /* Main.storyboard */; };
 		FFF4248224CF9D0100050FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF4248124CF9D0100050FAA /* Assets.xcassets */; };
 		FFF4248524CF9D0100050FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF4248324CF9D0100050FAA /* LaunchScreen.storyboard */; };
+		FFF4248D24CF9D4100050FAA /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFF4248C24CF9D4100050FAA /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FFF4248124CF9D0100050FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFF4248424CF9D0100050FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF4248624CF9D0100050FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF4248C24CF9D4100050FAA /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FFF4247724CF9CFD00050FAA /* ImageRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				FFF4248C24CF9D4100050FAA /* Resnet50.mlmodel */,
 				FFF4247824CF9CFD00050FAA /* AppDelegate.swift */,
 				FFF4247A24CF9CFD00050FAA /* SceneDelegate.swift */,
 				FFF4247C24CF9CFD00050FAA /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				FFF4247D24CF9CFD00050FAA /* ViewController.swift in Sources */,
 				FFF4247924CF9CFD00050FAA /* AppDelegate.swift in Sources */,
+				FFF4248D24CF9D4100050FAA /* Resnet50.mlmodel in Sources */,
 				FFF4247B24CF9CFD00050FAA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4857M8LR6;
 				INFOPLIST_FILE = ImageRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4857M8LR6;
 				INFOPLIST_FILE = ImageRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
